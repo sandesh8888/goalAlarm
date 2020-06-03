@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "924791215042",
+    "firebase_url": "https://goalalarm-53ec2.firebaseio.com",
+    "project_id": "goalalarm-53ec2",
+    "storage_bucket": "goalalarm-53ec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924791215042:android:78060bc0c5eead96befc5b",
+        "android_client_info": {
+          "package_name": "com.example.goalalarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924791215042-ufl7scq5fiol2frrapnh61gg2068u3h8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.goalalarm",
+            "certificate_hash": "2f3b5663837a28518567f347d5ae6620f5ff244b"
+          }
+        },
+        {
+          "client_id": "924791215042-u48gn3srtomq9d3o0dlliuoehiuqdil9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzNL2otSDAGhTs4NM2yaQB0g2wcGFFPN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924791215042-u48gn3srtomq9d3o0dlliuoehiuqdil9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
