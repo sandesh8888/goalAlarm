@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/newsimg_id"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:text="Lionel Messi and Luis suarez available for training as laliga make its return."
+            android:id="@+id/newstitle_id"/>
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsdesc_id"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Messi and his best friend have return for the match against mallaroca"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/newsdate_id"
+                android:textStyle="italic"
+                android:text="2020/06/22"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
