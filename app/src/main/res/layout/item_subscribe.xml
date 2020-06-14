@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/subscribe_item_id">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="2020/06/15"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/matchdate_id"
+            />
+        <TextView
+            android:layout_marginLeft="15sp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="12:45 PM"
+            android:textSize="15sp"
+            android:id="@+id/matchtime_id"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Laliga"
+        android:id="@+id/league_id"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:id="@+id/hometeamlogo_id"
+            />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="FC Barcelona"
+            android:id="@+id/hometeamname_id"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:id="@+id/awayteamlogo_id"
+            />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="FC Barcelona"
+            android:id="@+id/awayteamname_id"/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
